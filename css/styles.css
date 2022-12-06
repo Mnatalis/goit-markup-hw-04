@@ -159,6 +159,16 @@ padding-top: 32px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: 
+     linear-gradient( 
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4) 
+        ),
+    url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .hero-title {
     margin: auto;
@@ -416,6 +426,7 @@ font-size: 18px;
     letter-spacing: 0.06em;
     padding-top: 20px;
     margin-bottom: 4px;
+    margin-top: 0px;
 }
 .text-project {
     color: rgba(117, 117, 117, 1);
@@ -431,6 +442,7 @@ font-size: 18px;
     border-right: 1px solid rgba(238, 238, 238, 1);
     padding-left: 24px;
     padding-right: 24px;
+    
 }
 
 
