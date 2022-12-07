@@ -130,8 +130,9 @@ padding-top: 32px;
 }
 
 /*  -----------contact ---------------- */
-.list-contact{
+.contact{
     display: flex;
+    justify-content: center;
 }
 .contact-mail {
     color: rgba(117, 117, 117, 1);
@@ -151,7 +152,9 @@ padding-top: 32px;
     color: rgba(33, 150, 243, 1);
     cursor: pointer;
 }
-
+.list-contact {
+justify-content: center;
+}
 /*  -------------------Page index-------------- */
 /* HERO */
 .hero {
@@ -224,7 +227,7 @@ padding-right: 30px;
 .advantages-list li:not(:last-child) {
 margin-right: 30px;
 }
-.advantages-list {
+/* .advantages-list {
     display: flex;
     justify-content: space-evenly;
     padding-left: 0px;
@@ -232,10 +235,26 @@ margin-right: 30px;
     gap: 30px;
     margin-bottom: 0px;
     background-color: #F5F4FA;
+
+} */
+.advantages-link {
+    align-items: center;
 }
-.advantages-item {
+.container-icon{
+    background-color: #F5F4FA;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     align-items: center;
+  
+    
+}
+ .advantages-icon {
+    background-color: #F5F4FA;
+
+} 
+/* .advantages-item {
     width: calc((100% - 150px) / 4);
-    height: 90px;}
+    height: 90px;} */
 
 .advantages-caption {
     text-transform: uppercase;
@@ -484,6 +503,7 @@ cursor: pointer;
 .button-project:focus{
     color: rgba(245, 244, 250, 1);
 background-color: rgba(33, 150, 243, 1);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
 }
 .button-project-all {
     color: rgba(245, 244, 250, 1);
