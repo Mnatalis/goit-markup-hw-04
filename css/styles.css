@@ -220,6 +220,8 @@ justify-content: center;
     display: flex;
     margin: auto;
     padding-left: 0px;
+    gap: 30px;
+    margin-bottom: 94px;
     
 }
 .advantages li:not(:last-child) {
