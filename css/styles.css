@@ -60,11 +60,11 @@ a {
     padding-top: 94px;
     padding-bottom: 94px;
  }
- .index-section,
- .portfolio-section
+ .heder-section
   {
     padding-top: 24;
     padding-bottom: 25;
+    border-bottom: 1px solid #ECECEC;
  }
 
  /* --------------- logo------------ */
@@ -92,7 +92,7 @@ font-style: Medium;
     letter-spacing: 0.02em;
     font-weight: 500;
     display: flex;
-    border-bottom: 1px solid #ECECEC;
+    
     
     
 }
